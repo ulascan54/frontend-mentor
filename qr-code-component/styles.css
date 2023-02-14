@@ -18,20 +18,20 @@ body{
 
 
 .container{
-    margin-bottom: 1rem;
+    margin-bottom: 40px;
     box-sizing: border-box;
     background-color: hsl(0, 0%, 100%);
-    max-width: 350px;
+    width: 300px;
     padding: 1rem 1rem 3rem 1rem;
     border-radius: 0.7rem;
-    font-size: 1rem;
-    color: hsl(220, 15%, 55%);
+    color: hsl(220, 15%, 55%) ;
+    box-shadow: 0 0 20px hsl(220, 15%, 55%);
 }
 
 .container h2{
     color: hsl(218, 44%, 22%);
     font-weight:700;
-    font-size: 1.5rem !important;
+    font-size: 1.3rem;
 }
 
 .container img{
